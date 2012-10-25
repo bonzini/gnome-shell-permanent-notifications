@@ -1,7 +1,6 @@
 /* -*- mode: js2; js2-basic-offset: 4; indent-tabs-mode: nil -*- */
 
 const MessageTray = imports.ui.messageTray;
-const StatusIconDispatcher = imports.ui.statusIconDispatcher;
 
 function init() {
     let tray = MessageTray.MessageTray.prototype;
